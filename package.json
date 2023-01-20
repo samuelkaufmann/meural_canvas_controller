@@ -1,0 +1,22 @@
+{
+  "name": "meural_canvas_controller",
+  "version": "1.0.0",
+  "description": "control your meural canvas via nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelkaufmann/meural_canvas_controller.git"
+  },
+  "keywords": [
+    "meural","canvas"
+  ],
+  "author": "samuelkaufmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelkaufmann/meural_canvas_controller/issues"
+  },
+  "homepage": "https://github.com/samuelkaufmann/meural_canvas_controller#readme"
+}
