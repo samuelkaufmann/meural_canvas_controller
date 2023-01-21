@@ -13,7 +13,10 @@ myAsyncFunction();
 ```
 
 ## Functions ##
-- swipeRight()
-- swipeLeft()
-- swipeUp()
-- swipeDown()
+- swipeRight(ip)
+- swipeLeft(ip)
+- swipeUp(ip)
+- swipeDown(up)
+- sleep(up)
+- wakeUp(up)
+- setBrightness(ip, [1-100])
