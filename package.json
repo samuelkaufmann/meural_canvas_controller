@@ -1,6 +1,6 @@
 {
   "name": "meural_canvas_controller",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "control your meural canvas via nodejs",
   "main": "index.js",
   "scripts": {
