@@ -7,16 +7,16 @@ const mcs = require('meural_canvas_controller');
 const ip = 'x.x.x.x';
 
 async function myAsyncFunction() {
-  let result = await mcs.swipeRight(ip)
+  let result = await mcs.swipe(ip, 'right');
 }
 myAsyncFunction();
 ```
 
 ## Functions ##
-- swipeRight(ip)
-- swipeLeft(ip)
-- swipeUp(ip)
-- swipeDown(ip)
-- sleep(ip)
-- wakeUp(ip)
-- setBrightness(ip, [1-100])
+
+| Function | Parameter 1 | Parameter 2 |
+| -------- | ----------- | ----------- |
+| swipe(param1, param2) | ip (variable) | direction (string) right, left, up, down |
+| sleep(param1) | ip (variable) | N/A |
+| wakeUp(param1)  | ip (variable) | N/A |
+| setBrightness(param1, param2) | ip (variable) | brightness (int) 1-100 |
